@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SignUp from './user/SignUp'
+import Login from './user/Login'
+import UserList from './user/UserList'
 
 ReactDOM.render(
   <React.StrictMode>
-    <SignUp />
+    <UserList/>
   </React.StrictMode>,
   document.getElementById('root')
 );
