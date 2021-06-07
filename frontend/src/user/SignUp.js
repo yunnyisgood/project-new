@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import './SignUp.css'
+import './Signup.css'
 
 const SignUp = () => {
     return (<>

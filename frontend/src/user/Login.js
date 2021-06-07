@@ -4,12 +4,12 @@ import './Login.css'
 const Login = () => {
     return (<>
     <form action="/action_page.php" method="post">
-  <div class="imgcontainer">
+  <div className="imgcontainer">
     <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar"/>
   </div>
 
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
+  <div className="container">
+    <label labelFor="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required/>
 
     <label for="psw"><b>Password</b></label>
@@ -21,9 +21,9 @@ const Login = () => {
     </label>
   </div>
 
-  <div class="container" style={{backgroundColor:"#f1f1f1"}}>
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+  <div className="container" style={{backgroundColor:"#f1f1f1"}}>
+    <button type="button" className="cancelbtn">Cancel</button>
+    <span className="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
     </>)

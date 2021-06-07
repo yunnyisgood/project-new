@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'rootroot',
+        'USER': 'root', #root
+        'PASSWORD': 'root', #비밀번호(반드시 str이어야 합니다.)
+        'HOST': '', #공백으로 냅두면 default localhost
+        'PORT': '' #공백으로 냅두면 default 3306
     }
 }
 
