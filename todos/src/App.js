@@ -1,7 +1,5 @@
 import React from 'react'
-
 import {Schedule} from './containers'
-
 import {Route} from 'react-router-dom'
 
 const App = () => {

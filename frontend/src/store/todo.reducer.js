@@ -12,4 +12,4 @@ const todoReducer = (state = initialState, action) => {
         default: return state
     }
 }
-export default todoReducer     
+export default todoReducer

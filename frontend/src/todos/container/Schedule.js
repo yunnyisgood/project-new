@@ -4,6 +4,7 @@ import {store} from '../store'
 import {Provider} from 'react-redux'
 
 const Schedule = () => {
+
     return (<>
     <Provider store={store}>
         <TodoInput/>
