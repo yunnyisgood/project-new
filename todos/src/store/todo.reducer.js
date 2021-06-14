@@ -1,7 +1,9 @@
 const initialState = {todos:[], todo:{}}
+
 export const addTodoAction = todo => ({type:"ADD_TODO", payload: todo})
 export const toggleTodoAction = todoId => ({type:"TOGGLE_TODO", payload:todoId})
 export const deleteTodoAction = todoId => ({type:"DELETE_TODO", payload: todoId})
+
 const todoReducer = (state = initialState, action) => {
     switch(action.type){
         case "ADD_TODO": return{...state, todos: [...state.todos, action.payload]}
